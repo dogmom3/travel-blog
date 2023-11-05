@@ -1,0 +1,170 @@
+/* WHOLE PAGE STYTLES  */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: fantasy;
+    background-color: lavender;
+    /* display: flex;
+    flex-direction: column; */
+  }
+  
+  /* HEADER STYLES  */
+  header {
+    padding: 20px;
+    background-color: teal;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    border-style: ridge;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: blue;
+  }
+  header h1 {
+    font-weight: bold;
+    font-size: 40px;
+  }
+  header h2 {
+    color: lightskyblue;
+  }
+  header a {
+    text-decoration: none;
+    color: lavender;
+  }
+  header nav ul li {
+    display: inline;
+  }
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+    color: lightskyblue;
+  }
+  
+  /* FORM STYLES */
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(../images/whitetop.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    /* padding: 20px; */
+    border-style: ridge;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: darkolivegreen;
+  }
+  .form-heading {
+    display: flex;
+    flex-direction: column;
+  text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    /* border-style: ridge;
+    border-width: 5px;
+    border-radius: 5px;
+    background: rgba(85, 107, 47, 0.75);
+    color: white;
+    margin: auto; */
+  }
+  .formQuestions {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-style: ridge;
+    border-width: 5px;
+    border-radius: 5px;
+    background: rgba(85, 107, 47, 0.75);
+    color: white;
+  }
+  .radiobtn {
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .form-btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-style: ridge;
+    border-color: darkolivegreen;
+    border-radius: 5px;
+    border-width: 3px;
+    width: 50%;
+    align-self: center;
+    font-family: fantasy;
+  }
+  label {
+    font-size: 25px;
+  }
+  .form-input {
+    border-style: ridge;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: darkolivegreen;
+    display: block;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: navy;
+  }
+  section {
+    padding: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  /* STYLES */
+  #dogs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #bio {
+    margin: 30px;
+  }
+  #violet,
+  #arlene,
+  #waldo {
+    height: 400px;
+    width: 300px;
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 5px;
+    border-color: blueviolet;
+  }
+  #arlene {
+    border-color: magenta;
+  }
+  #waldo {
+    border-color: lightseagreen;
+  }
+  
+  /* FOOTER STYLES */
+  footer {
+    background: rebeccapurple;
+    /* width: 100%; */
+    /* padding: 40px 35 px; */
+    margin: 20px;
+  }
+  footer h2 {
+    color: lightskyblue;
+    font-size: 25px;
+  }
+  footer div {
+    line-height: 1.5;
+    text-align: right;
+    margin: 20px;
+    padding: 10px;
+  }
+  footer a {
+    color: lightsteelblue;
+  }
+  
