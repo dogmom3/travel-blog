@@ -5,14 +5,17 @@
   }
   body {
     font-family: fantasy;
-    background-color: lavender;
+    background-image: url('../images/lake1.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: green; */
     /* display: flex;
     flex-direction: column; */
   }
   
   /* HEADER STYLES  */
   header {
-    padding: 20px;
+    padding: 10px;
     background-color: teal;
     display: flex;
     justify-content: space-between;
@@ -27,11 +30,11 @@
     font-size: 40px;
   }
   header h2 {
-    color: lightskyblue;
+    color: white;
   }
   header a {
     text-decoration: none;
-    color: lavender;
+    color: white;
   }
   header nav ul li {
     display: inline;
@@ -39,37 +42,21 @@
   header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
-    color: lightskyblue;
+    font-size: 20px;
+    color:white;
+    text-decoration: underline;
   }
-  
+  .header-label {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
   /* FORM STYLES */
-  .form {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    background-image: url(../images/whitetop.jpeg);
-    background-size: cover;
-    background-attachment: fixed;
-    /* padding: 20px; */
-    border-style: ridge;
-    border-width: 5px;
-    border-radius: 5px;
-    border-color: darkolivegreen;
-  }
+
   .form-heading {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
   text-align: center;
-    font-size: 25px;
-    margin-bottom: 10px;
-    /* border-style: ridge;
-    border-width: 5px;
-    border-radius: 5px;
-    background: rgba(85, 107, 47, 0.75);
-    color: white;
-    margin: auto; */
   }
   .formQuestions {
     display: flex;
@@ -81,28 +68,9 @@
     background: rgba(85, 107, 47, 0.75);
     color: white;
   }
-  .radiobtn {
-    font-size: 25px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 5px;
-    display: flex;
-    justify-content: space-between;
-  }
-  .form-btn {
-    padding: 10px 20px;
-    font-size: 20px;
-    border-style: ridge;
-    border-color: darkolivegreen;
-    border-radius: 5px;
-    border-width: 3px;
-    width: 50%;
-    align-self: center;
-    font-family: fantasy;
-  }
+
   label {
-    font-size: 25px;
+    font-size: 12px;
   }
   .form-input {
     border-style: ridge;
@@ -110,10 +78,21 @@
     border-width: 2px;
     border-color: darkolivegreen;
     display: block;
-    padding: 5px;
-    font-size: 20px;
+    /* padding: 5px; */
+    font-size: 12px;
+    font-family: fantasy;
     font-weight: bold;
-    color: navy;
+  }
+  .form-btn {
+    padding: 3px;
+    font-size: 12px;
+    border-style: ridge;
+    border-radius: 5px;
+    border-width: 3px;
+    width: 40%;
+    align-self: center;
+    font-family: fantasy;
+    margin: 5px;
   }
   section {
     padding: 60px;

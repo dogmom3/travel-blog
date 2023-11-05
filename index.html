@@ -7,42 +7,40 @@
   </head>
 
   <body>
-
     <header>
-      <div>
-        <h1><a href="/"> Wild West Travels  </a></h1>
-        <h2>photos and blogs from my roadtrip 2/1/23-10/1/23</h2>
+      <div class="header-label">
+        <div>
+          <h1><a href="/"> Wild West Travels </a></h1>
+          <h2>photos and blogs from my roadtrip 2/1/23-10/1/23</h2>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="#one">Link 1</a>
+            </li>
+            <li>
+              <a href="#two">Link 2</a>
+            </li>
+            <li>
+              <a href="#three">Link 3</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <nav>
-        <ul>
-          <li>
-            <a href="#one">Link 1</a>
-          </li>
-          <li>
-            <a href="#two">Link 2</a>
-          </li>
-          <li>
-            <a href="#three">Link 3</a>
-          </li>
-        </ul>
-      </nav>
+
+      <form class="formQuestions">
+        <div class="form-heading">
+          <h3>Do you want to get instant updates?</h3>
+          <p>Fill out the form below to be added to my email list!</p>
+        </div>
+        <label for="name">What is your name?</label>
+        <input type="text" name="name" id="name" class="form-input" />
+        <label for="email"> What is your email? </label>
+        <input type="email" name="email" id="email" class="form-input" />
+        <button type="submit" class="form-btn">Let's be friends!</button>
+      </form>
     </header>
-
-    <section class="form">
-
-        <form class="formQuestions">
-          <div class="form-heading">
-            <h1>Let's be friends!</h1>
-            <p>Fill out the form below to be added to my email list!</p>
-          </div>
-          <label for="name">What is your name?</label>
-          <input type="text" name="name" id="name" class="form-input" />
-          <label for="email"> What is your email? </label>
-          <input type="email" name="email" id="email" class="form-input" />
-          <button type="submit" class="form-btn">LET'S GO!</button>
-        </form>
-
-    </section>
+    
 
     <section id="photos">
       <div id="bio">
