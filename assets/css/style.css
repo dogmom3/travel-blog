@@ -103,47 +103,39 @@
   /* STYLES */
   #photos {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    /* align-items: center; */
   }
-  #bio {
-    margin: 30px;
-  }
-  #violet,
-  #arlene,
-  #waldo {
-    height: 400px;
-    width: 300px;
+#images {
+    height: 250px;
+    width: 200px;
     border-style: ridge;
-    border-width: 10px;
+    border-color: blue;
+    border-width: 3px;
     border-radius: 5px;
-    border-color: blueviolet;
-  }
-  #arlene {
-    border-color: magenta;
-  }
-  #waldo {
-    border-color: lightseagreen;
-  }
-  
+}
+  #thumbnails {
+      margin:10px;
+    }
+
   /* FOOTER STYLES */
   footer {
-    background: rebeccapurple;
-    /* width: 100%; */
-    /* padding: 40px 35 px; */
+    background: teal;
+    border-style: ridge;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: blue;
     margin: 20px;
+    color: white;
   }
   footer h2 {
-    color: lightskyblue;
-    font-size: 25px;
+    font-size: 20px;
   }
   footer div {
-    line-height: 1.5;
     text-align: right;
-    margin: 20px;
-    padding: 10px;
+    margin: 10px;
   }
   footer a {
-    color: lightsteelblue;
+    color: white;
   }
   
